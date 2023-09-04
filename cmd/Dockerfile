@@ -1,2 +1,2 @@
-FROM registry.access.redhat.com/ubi9
-CMD while true; echo "Hello World", done 
+FROM registry.access.redhat.com/ubi8
+CMD while true; $(( i++ )); echo "Hello World \$i", done 
